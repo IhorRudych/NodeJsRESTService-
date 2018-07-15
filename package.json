@@ -1,0 +1,30 @@
+{
+  "name": "nodepr",
+  "version": "1.0.0",
+  "description": "very descriptive",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorRudych/MongoRESTApi.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ihor Rudych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorRudych/MongoRESTApi/issues"
+  },
+  "homepage": "https://github.com/IhorRudych/MongoRESTApi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.335"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
+}
